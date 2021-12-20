@@ -1,0 +1,42 @@
+.project__container {
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 800px;
+    font-weight: 300;
+  }
+  
+  .project__container span:first-child {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .project__container span:last-child {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .git_Icon{
+    width: 20px;
+    height:20px;
+  }
+
+  .root_git{
+    width: 100%;
+  }
+
+  span a{
+    margin:2px;
+    padding:3px;
+    font-size: 25px;
+    background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+  }

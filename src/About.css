@@ -1,0 +1,39 @@
+.about__container {
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 100%;
+  max-width: 800px; 
+}
+  
+.about__container h4{
+  font-weight: 700;
+  color:rgba(71,189,154,1);
+  text-shadow: 1px 1px 2px green;
+}
+
+.about_main .about__container:nth-child(3) > span > div{
+    font-size: 16px;
+    color: rgba(64,144,203,1);
+    font-weight: 600;
+    text-shadow: 0.3px 0.3px 5px skyblue;
+}
+
+
+.about_main .about__container:nth-child(4) > span > div{
+  font-size: 16px;
+  color: rgba(231,76,94,1);
+  font-weight: 600;
+  text-shadow: 0.3px 0.3px 3px orangered;
+}
+
+.about_main .about__container:nth-child(5) > span > div{
+  font-size: 16px;
+  color: rgba(239,183,112,1);
+  font-weight: 600;
+  text-shadow: 0.3px 0.3px 5px yellow;
+}
